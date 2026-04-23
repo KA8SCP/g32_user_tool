@@ -7,4 +7,4 @@ Recommend putting the script file in the /dstar/scripts directory. Make it execu
 
 Use a cron job to execute it on a schedule.
 
-If you want the html report "hidden", create a hidden directory like /var/www/html/.reports and change the script to write the 2 files there.
+If you want the html report "hidden", create a hidden directory like /var/www/html/.reports first and change the script to write the 2 files there.

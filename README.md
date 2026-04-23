@@ -6,3 +6,5 @@ The script writes to output to 2 files to the /var/www/html directory. You may d
 Recommend putting the script file in the /dstar/scripts directory. Make it executable with: chmod +x
 
 Use a cron job to execute it on a schedule.
+
+If you want html report "hidden", create a hidden directory like /var/www/html/.reports and change the script to write the 2 files there.
